@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="#0F1115">
-    <LinearLayout android:layout_width="match_parent" android:layout_height="60dp" android:background="#1A1D24" android:orientation="horizontal" android:padding="10dp">
-        <EditText android:id="@+id/urlBar" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
-            android:hint="Buscar o escribir URL..." android:textColor="#FFFFFF" android:background="#2A2E3A" android:padding="12dp" android:focusable="true"/>
-        <Button android:id="@+id/goBtn" android:layout_width="100dp" android:layout_height="match_parent" android:text="IR" android:layout_marginLeft="10dp"/>
+    android:background="@color/leo_bg" android:padding="24dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="LEO TV BROWSER" android:textColor="@color/leo_primary"
+        android:textSize="28sp" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/leo_surface" android:orientation="horizontal"
+        android:padding="12dp" android:gravity="center_vertical">
+        <EditText android:id="@+id/urlBar" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:textColor="@color/leo_text"
+            android:hint="Buscar o escribir URL..." android:background="@android:color/transparent"
+            android:textSize="18sp" android:focusable="true"/>
+        <Button android:id="@+id/goBtn" android:layout_width="140dp" android:layout_height="60dp"
+            android:text="IR" android:textSize="20sp" android:backgroundTint="@color/leo_primary"/>
     </LinearLayout>
-    <WebView android:id="@+id/webView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <WebView android:id="@+id/webView" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_marginTop="12dp"/>
 </LinearLayout>

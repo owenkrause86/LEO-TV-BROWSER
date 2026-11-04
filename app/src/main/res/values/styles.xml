@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LEOTV" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@color/leo_bg</item>
+        <item name="android:colorAccent">@color/leo_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

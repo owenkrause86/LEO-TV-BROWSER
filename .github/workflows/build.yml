@@ -13,7 +13,9 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
         with:
-          packages: 'platform-tools, platforms;android-34, build-tools;34.0.0'
+          packages: 'platform-tools'
+        env:
+          ANDROID_HOME: ${{ github.workspace }}/android-sdk
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
         with:

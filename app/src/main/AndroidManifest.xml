@@ -3,7 +3,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
     <uses-feature android:name="android.software.leanback" android:required="true"/>
-    <application android:label="LEO TV Browser" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:banner="@android:drawable/sym_def_app_icon">
+    <application android:label="LEO TV BROWSER" android:theme="@style/Theme.LEOTV" android:icon="@mipmap/ic_launcher" android:banner="@drawable/ic_leo_tech">
         <activity android:name=".MainActivity" android:exported="true" android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

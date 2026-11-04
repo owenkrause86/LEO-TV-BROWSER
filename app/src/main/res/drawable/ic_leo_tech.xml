@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp" android:height="100dp"
+    android:viewportWidth="100" android:viewportHeight="100">
+    <!-- Melena naranja y dorada -->
+    <path android:fillColor="#FF7A1A" android:pathData="M22 55 Q35 45 42 60 L48 82 L40 86 L28 80 L20 65 Z"/>
+    <path android:fillColor="#FFB74D" android:pathData="M26 58 Q38 50 44 62 L50 80 L42 84 L30 78 L24 64 Z"/>
+    <!-- Corona dorada -->
+    <circle android:fillColor="#FFC125" android:cx="50" android:cy="20" android:r="7"/>
+    <circle android:fillColor="#FFC125" android:cx="50" android:cy="20" android:r="3"/>
+    <!-- Cara -->
+    <path android:fillColor="#FFF4E6" android:pathData="M50 34 L55 44 L66 40 L62 52 L72 48 L68 60 L54 58 L50 74 L46 58 L32 60 L28 48 L38 42 L50 34 Z"/>
+    <!-- Ojos -->
+    <ellipse android:fillColor="#FFFFFF" android:cx="44" android:cy="42" android:rx="3.5" android:ry="4.5"/>
+    <ellipse android:fillColor="#FFFFFF" android:cx="56" android:cy="42" android:rx="3.5" android:ry="4.5"/>
+    <circle android:fillColor="#00E5FF" android:cx="44.5" android:cy="42.5" android:r="1.2"/>
+    <circle android:fillColor="#00E5FF" android:cx="56.5" android:cy="42.5" android:r="1.2"/>
+    <path android:strokeColor="#5A2E00" android:strokeWidth="2" android:pathData="M46 49 Q50 54 54 49"/>
+</vector><path android:fillColor="#00E5FF" android:pathData="M50 82 Q36 72 40 52 Q42 48 36 42 L46 30 Q42 18 50 18 Q58 18 54 30 L64 42 Q58 48 60 52 Q64 72 50 82 Z" opacity="0.25"/>
