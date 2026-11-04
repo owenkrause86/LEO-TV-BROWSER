@@ -1,6 +1,6 @@
 <resources>
-<style name="Theme.LEOTV.Dark" parent="Theme.LEOTV"><item name="android:windowBackground">#0B0D12</item><item name="android:colorAccent">#FF4D00</item></style>
-<style name="Theme.LEOTV.Gold" parent="Theme.LEOTV"><item name="android:windowBackground">#1A1208</item><item name="android:colorAccent">#FFC125</item></style>
-<style name="Theme.LEOTV.Electric" parent="Theme.LEOTV"><item name="android:windowBackground">#0D0F1A</item><item name="android:colorAccent">#00E5FF</item></style>
-<style name="Theme.LEOTV.Light" parent="Theme.LEOTV"><item name="android:windowBackground">#F2F0EB</item><item name="android:colorAccent">#FF4D00</item></style>
+<style name="Theme.LEOTV.Dark" parent="Theme.LEOTV"><item name="android:windowBackground">#091024</item><item name="android:colorAccent">#00E5FF</item></style>
+<style name="Theme.LEOTV.Azul" parent="Theme.LEOTV"><item name="android:windowBackground">#051A2E</item><item name="android:colorAccent">#00E5FF</item><item name="android:colorPrimary">#87CEEB</item></style>
+<style name="Theme.LEOTV.Verde" parent="Theme.LEOTV"><item name="android:windowBackground">#0A1A12</item><item name="android:colorAccent">#046B3A</item><item name="android:colorPrimary">#CCFF00</item></style>
+<style name="Theme.LEOTV.Violeta" parent="Theme.LEOTV"><item name="android:windowBackground">#1A0A2A</item><item name="android:colorAccent">#8E24AA</item><item name="android:colorPrimary">#D500F9</item></style>
 </resources>
