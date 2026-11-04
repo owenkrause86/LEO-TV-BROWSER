@@ -1,0 +1,1 @@
+NOTA HONESTA: No se ha generado APK (LEO-TV-BROWSER.apk) debido a falta de Android SDK local (build falló: SDK location not found). Por lo tanto no existe archivo real para calcular SHA256.
