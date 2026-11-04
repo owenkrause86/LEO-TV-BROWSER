@@ -10,6 +10,9 @@ class MainActivity : AppCompatActivity() {
     lateinit var urlBar: EditText
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val prefs = getSharedPreferences("leo_theme", MODE_PRIVATE)
+        val themeName = prefs.getString("theme", "Theme.LEOTV.Dark") ?: "Theme.LEOTV.Dark"
+        setTheme(resources.getIdentifier(themeName, "style", packageName))
         setContentView(R.layout.activity_main)
         webView = findViewById(R.id.webView)
         urlBar = findViewById(R.id.urlBar)
